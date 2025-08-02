@@ -67,12 +67,12 @@
 
     <script>
         const teams = {
-            "AL East": { "BAL": { name: "Baltimore Orioles", color: "#DF4601" }, "BOS": { name: "Boston Red Sox", color: "#BD3039" }, "NYY": { name: "New York Yankees", color: "#003087" }, "TB": { name: "Tampa Bay Rays", color: "#8FBCE6" }, "TOR": { name: "Toronto Blue Jays", color: "#134A8E" }},
-            "AL Central": { "CWS": { name: "Chicago White Sox", color: "#27251F" }, "CLE": { name: "Cleveland Guardians", color: "#E31937" }, "DET": { name: "Detroit Tigers", color: "#0C2340" }, "KC": { name: "Kansas City Royals", color: "#004687" }, "MIN": { name: "Minnesota Twins", color: "#002B5C" }},
+            "AL East": { "BAL": { name: "Baltimore Orioles", color: "#DF4601" }, "BOS": { name: "Boston Red Sox", color: "#BD3039" }, "NYY": { name: "New York Yankees", color: "#003087" }, "TBR": { name: "Tampa Bay Rays", color: "#8FBCE6" }, "TOR": { name: "Toronto Blue Jays", color: "#134A8E" }},
+            "AL Central": { "CHW": { name: "Chicago White Sox", color: "#27251F" }, "CLE": { name: "Cleveland Guardians", color: "#E31937" }, "DET": { name: "Detroit Tigers", color: "#0C2340" }, "KCR": { name: "Kansas City Royals", color: "#004687" }, "MIN": { name: "Minnesota Twins", color: "#002B5C" }},
             "AL West": { "HOU": { name: "Houston Astros", color: "#EB6E1F" }, "LAA": { name: "Los Angeles Angels", color: "#BA0021" }, "OAK": { name: "Oakland Athletics", color: "#003831" }, "SEA": { name: "Seattle Mariners", color: "#0C2C56" }, "TEX": { name: "Texas Rangers", color: "#003278" }},
             "NL East": { "ATL": { name: "Atlanta Braves", color: "#CE1141" }, "MIA": { name: "Miami Marlins", color: "#00A3E0" }, "NYM": { name: "New York Mets", color: "#FF5910" }, "PHI": { name: "Philadelphia Phillies", color: "#E81828" }, "WSH": { name: "Washington Nationals", color: "#AB0003" }},
             "NL Central": { "CHC": { name: "Chicago Cubs", color: "#0E3386" }, "CIN": { name: "Cincinnati Reds", color: "#C6011F" }, "MIL": { name: "Milwaukee Brewers", color: "#12284B" }, "PIT": { name: "Pittsburgh Pirates", color: "#FDB827" }, "STL": { name: "St. Louis Cardinals", color: "#C41E3A" }},
-            "NL West": { "AZ": { name: "Arizona Diamondbacks", color: "#A71930" }, "COL": { name: "Colorado Rockies", color: "#33006F" }, "LAD": { name: "Los Angeles Dodgers", color: "#005A9C" }, "SD": { name: "San Diego Padres", color: "#2F241D" }, "SF": { name: "San Francisco Giants", color: "#FD5A1E" }}
+            "NL West": { "ARI": { name: "Arizona Diamondbacks", color: "#A71930" }, "COL": { name: "Colorado Rockies", color: "#33006F" }, "LAD": { name: "Los Angeles Dodgers", color: "#005A9C" }, "SDP": { name: "San Diego Padres", color: "#2F241D" }, "SF": { name: "San Francisco Giants", color: "#FD5A1E" }}
         };
         const allTeamData = Object.values(teams).reduce((acc, div) => ({...acc, ...div}), {});
         const allTeamKeys = Object.keys(allTeamData);
